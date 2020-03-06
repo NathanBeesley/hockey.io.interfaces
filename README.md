@@ -1,0 +1,2 @@
+# HockeyStats.shared
+Shared assets
