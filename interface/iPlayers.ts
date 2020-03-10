@@ -1,4 +1,4 @@
-import { iTeam } from "./iTeams";
+import { team } from "./iTeams";
 
 export interface iPlayer {
     id?: number
@@ -20,7 +20,7 @@ export interface iPlayer {
     rookie: boolean
     shootsCatches: string
     rosterStatus: string
-    currentTeam: iTeam
+    currentTeam: team
     primaryPosition: iPrimaryPosition
 }
 

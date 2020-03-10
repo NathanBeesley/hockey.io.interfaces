@@ -3,7 +3,7 @@ import { iDivision } from "./iDivision";
 import { iConference } from "./iConference";
 import { iFranchise } from "./iFranchise";
 
-export interface iTeam {
+export interface team {
     id?: string
     name?: string
     link?: string
