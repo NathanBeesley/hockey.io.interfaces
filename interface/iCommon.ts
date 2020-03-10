@@ -1,10 +1,10 @@
 export interface iTimezone {
     id?: string
     offset?: number
-    tz?: string
+    tz?: timeZones
 }
 
-export enum timzones  {
+export enum timeZones  {
     est = 'EST',
     edt = 'EDT',
     cst = 'CST',

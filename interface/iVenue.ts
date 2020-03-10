@@ -5,5 +5,5 @@ export interface iVenue {
     name?: string
     link?: string
     city?: string
-    timezone?: iTimezone
+    timeZone?: iTimezone
 }
