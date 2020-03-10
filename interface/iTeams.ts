@@ -4,7 +4,7 @@ import { iConference } from "./iConference";
 import { iFranchise } from "./iFranchise";
 
 export interface team {
-    id?: string
+    id?: number
     name?: string
     link?: string
     venue?: iVenue
