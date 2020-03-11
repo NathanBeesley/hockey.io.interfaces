@@ -1,5 +1,5 @@
 import { team } from "./iTeams";
-export interface iPlayer {
+export interface player {
     id?: number;
     fullName?: string;
     link: string;
@@ -20,24 +20,24 @@ export interface iPlayer {
     shootsCatches: string;
     rosterStatus: string;
     currentTeam: team;
-    primaryPosition: iPrimaryPosition;
+    primaryPosition: primaryPosition;
 }
-export interface iPrimaryPosition {
+export interface primaryPosition {
     code: string;
     name: string;
     type: string;
     abbreviation: string;
 }
-export interface iStatType {
+export interface statType {
     type: {
         displayName: string;
     };
 }
-export interface iStats {
+export interface stats {
     season: string;
     stat: any;
 }
-export interface iStat {
+export interface stat {
     timeOnIce: string;
     assists: number;
     goals: number;

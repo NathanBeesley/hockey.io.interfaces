@@ -1,6 +1,6 @@
 import { team } from "./iTeams";
 
-export interface iPlayer {
+export interface player {
     id?: number
     fullName?: string
     link: string
@@ -21,28 +21,28 @@ export interface iPlayer {
     shootsCatches: string
     rosterStatus: string
     currentTeam: team
-    primaryPosition: iPrimaryPosition
+    primaryPosition: primaryPosition
 }
 
-export interface iPrimaryPosition {
+export interface primaryPosition {
     code: string // Map to enum
     name: string // Research and find all positions and create an interface
     type: string // Research and find all positions and create an interface
     abbreviation:string
 }
 
-export interface iStatType {
+export interface statType {
     type: {
         displayName: string // Map to stat types
     }
 }
 
-export interface iStats { // Depends on type of stats requested
+export interface stats { // Depends on type of stats requested
     season: string
     stat: any
 }
 
-export interface iStat {
+export interface stat {
     timeOnIce: string
     assists: number
     goals: number

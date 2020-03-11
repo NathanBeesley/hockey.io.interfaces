@@ -1,11 +1,11 @@
-import { iConference } from "./iConference";
-export interface iDivision {
+import { conference } from "./iConference";
+export interface division {
     id?: number;
     name?: divisions;
     nameShort?: string;
     link?: string;
     abbreviation?: string;
-    conference?: iConference;
+    conference?: conference;
     active?: boolean;
 }
 export declare enum divisions {

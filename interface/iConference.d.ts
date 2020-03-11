@@ -1,4 +1,4 @@
-export interface iConference {
+export interface conference {
     id?: number;
     name?: string;
     link?: string;

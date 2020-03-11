@@ -1,4 +1,4 @@
-export interface iTimezone {
+export interface timeZone {
     id?: string
     offset?: number
     tz?: timeZones

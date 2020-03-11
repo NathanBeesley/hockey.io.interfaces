@@ -1,12 +1,12 @@
-import { iConference } from "./iConference";
+import { conference } from "./iConference";
 
-export interface iDivision {
+export interface division {
     id?: number
     name?: divisions
     nameShort?: string
     link?: string
     abbreviation?: string
-    conference?: iConference
+    conference?: conference
     active?: boolean
 }
 
