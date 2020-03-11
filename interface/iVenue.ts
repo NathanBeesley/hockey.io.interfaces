@@ -1,6 +1,6 @@
 import { timeZone } from "./iCommon"
 
-export interface iVenue {
+export interface venue {
     id?: number
     name?: string
     link?: string
