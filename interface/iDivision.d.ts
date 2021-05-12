@@ -1,16 +1,16 @@
-import { conference } from "./iConference";
-export interface division {
-    id?: number;
-    name?: divisions;
-    nameShort?: string;
-    link?: string;
-    abbreviation?: string;
-    conference?: conference;
-    active?: boolean;
+import { Conference } from './iConference'
+export interface Division {
+    id?: number
+    name?: Divisions
+    nameShort?: string
+    link?: string
+    abbreviation?: string
+    conference?: Conference
+    active?: boolean
 }
-export declare enum divisions {
-    central = "Central",
-    pacific = "Pacific",
-    atlantic = "Atlantic",
-    metropolitan = "Metropolitan"
+export declare enum Divisions {
+    central = 'Central',
+    pacific = 'Pacific',
+    atlantic = 'Atlantic',
+    metropolitan = 'Metropolitan'
 }

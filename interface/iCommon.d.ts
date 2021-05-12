@@ -1,9 +1,9 @@
-export interface timeZone {
-    id?: string;
-    offset?: number;
-    tz?: timeZones;
+export interface TimeZone {
+    id?: string
+    offset?: number
+    tz?: TimeZones
 }
-export declare enum timeZones {
+export declare enum TimeZones {
     est = "EST",
     edt = "EDT",
     cst = "CST",

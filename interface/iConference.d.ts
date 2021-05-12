@@ -1,12 +1,12 @@
-export interface conference {
-    id?: number;
-    name?: string;
-    link?: string;
-    abbreviation: string;
-    shortName: string;
-    active: boolean;
+export interface Conference {
+    id?: number
+    name?: string
+    link?: string
+    abbreviation: string
+    shortName: string
+    active: boolean
 }
-export declare enum conferences {
+export declare enum Conferences {
     eastern = "Eastern",
     western = "Western"
 }

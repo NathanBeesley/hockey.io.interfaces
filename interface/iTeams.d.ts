@@ -1,21 +1,21 @@
-import { venue } from "./iVenue";
-import { division } from "./iDivision";
-import { conference } from "./iConference";
-import { franchise } from "./iFranchise";
+import { Venue } from "./iVenue"
+import { Division } from "./iDivision"
+import { Conference } from "./iConference"
+import { Franchise } from "./iFranchise"
 export interface team {
-    id?: number;
-    name?: string;
-    link?: string;
-    venue?: venue;
-    abbreviation?: string;
-    teamName?: string;
-    locationName?: string;
-    firstYearOfPlay?: string;
-    division?: division;
-    conference?: conference;
-    franchise?: franchise;
-    shortName?: string;
-    officialSiteUrl?: string;
-    franchiseId?: number;
-    active?: boolean;
+    id?: number
+    name?: string
+    link?: string
+    venue?: Venue
+    abbreviation?: string
+    teamName?: string
+    locationName?: string
+    firstYearOfPlay?: string
+    division?: Division
+    conference?: Conference
+    franchise?: Franchise
+    shortName?: string
+    officialSiteUrl?: string
+    franchiseId?: number
+    active?: boolean
 }
