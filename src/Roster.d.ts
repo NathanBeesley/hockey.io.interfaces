@@ -1,4 +1,4 @@
-import { Player } from '../interface/Player'
+import { Player } from './Player'
 
 export interface Roster {
     person?: Pick<Player, 'id' | 'fullName' | 'link'>

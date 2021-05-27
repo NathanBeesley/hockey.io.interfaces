@@ -1,5 +1,5 @@
-import { Venue } from '../interface/Venue'
-import { Team } from '../interface/Team'
+import { Venue } from './Venue'
+import { Team } from './Team'
 
 export interface Schedule {
     totalItems?: number

@@ -1,4 +1,4 @@
-import { GameTypeID } from './Schedule.d'
+import { GameTypeID } from './Schedule'
 
 export interface TimeZone {
     id?: string
