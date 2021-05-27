@@ -1,5 +1,5 @@
 {
-    "name": "hockeystats.shared",
+    "name": "hockeystats.io.interfaces",
     "version": "0.0.1",
     "description": "Shared assets for hockeystats.info",
     "main": "index.js",
@@ -21,15 +21,9 @@
         "husky": "^6.0.0",
         "lint-staged": "^11.0.0",
         "prettier": "2.3.0",
-        "pretty-quick": "^3.1.0",
         "typescript": "^3.9.9"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
     }
 }
