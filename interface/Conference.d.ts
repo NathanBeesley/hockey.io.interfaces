@@ -9,5 +9,5 @@ export interface Conference {
 
 export declare enum Conferences {
     eastern = 5,
-    western = 6
+    western = 6,
 }

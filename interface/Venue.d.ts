@@ -1,4 +1,4 @@
-import { TimeZone } from "./Common"
+import { TimeZone } from './Common'
 export interface Venue {
     id?: number
     name?: string

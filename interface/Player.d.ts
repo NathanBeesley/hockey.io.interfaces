@@ -1,5 +1,10 @@
-import { Position, PositionName, PositionType, PositionCodeAbbrev } from './Roster';
-import { Team } from "./Team"
+import {
+    Position,
+    PositionName,
+    PositionType,
+    PositionCodeAbbrev,
+} from './Roster'
+import { Team } from './Team'
 
 export interface Player {
     id?: number
@@ -21,22 +26,22 @@ export interface Player {
     rookie?: boolean
     shootsCatches?: string
     rosterStatus?: string
-	currentTeam?: Pick<Team, | "id" | "name" | "link">
+    currentTeam?: Pick<Team, 'id' | 'name' | 'link'>
     primaryPosition?: PrimaryPosition
 }
 export interface PrimaryPosition {
-	code?: Position
-	name?: PositionName
-	type?: PositionType
-	abbrev?: PositionCodeAbbrev
+    code?: Position
+    name?: PositionName
+    type?: PositionType
+    abbrev?: PositionCodeAbbrev
 }
 
 export interface StatType {
     type?: { displayName?: string }
 }
 export interface PlayerStats {
-    season?: string;
-    stat?: any;
+    season?: string
+    stat?: any
 }
 export interface PlayerStat {
     timeOnIce?: string

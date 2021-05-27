@@ -7,26 +7,26 @@ export interface TimeZone {
 }
 
 interface Copyright {
-	copyright?: string
+    copyright?: string
 }
 
 export interface Response<T> extends Copyright {
-	data?: Array<T>
+    data?: Array<T>
 }
 
 export interface GameType {
-	id?: GameTypeID
-	description?: string
-	postseason?: boolean
+    id?: GameTypeID
+    description?: string
+    postseason?: boolean
 }
 export declare enum TimeZones {
-	est = "EST",
-	edt = "EDT",
-	cst = "CST",
-	adt = "ADT",
-	pst = "PST",
-	nst = "NST",
-	ndt = "NDT",
-	mst = "MST",
-	mdt = "MDT"
+    est = 'EST',
+    edt = 'EDT',
+    cst = 'CST',
+    adt = 'ADT',
+    pst = 'PST',
+    nst = 'NST',
+    ndt = 'NDT',
+    mst = 'MST',
+    mdt = 'MDT',
 }
