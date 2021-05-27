@@ -26,5 +26,10 @@
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
     }
 }
